@@ -22,7 +22,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_card, parent, false);
         return new MyViewHolder(view);
     }
 
@@ -87,19 +87,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                     imageView.setImageResource(R.drawable.rosomaha);
                     break;
             }
-
-            //   list.add("кошка");
-            //        list.add("собака");
-            //        list.add("жираф");
-            //        list.add("птица");
-            //        list.add("тигр");
-            //        list.add("лев");
-            //        list.add("кит");
-            //        list.add("дельфин");
-            //        list.add("акула");
-            //        list.add("змея");
-            //        list.add("панголин");
-            //        list.add("росомаха");
 
         }
     }
